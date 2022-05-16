@@ -1,0 +1,12 @@
+ADMIN PAGE
+	HEADER = BUTTON('new user'), CHECKBOX('hide Disabled User' <- hides - shows user on USER LISTBOX below), Button('save user') <- Saves user and displays it specified user in add new user panel
+	USER LISTBOX
+		*  Column that has ID(Integer), User Name(String), Email(Email type), Enabled(boolean) areas.
+		* New Users are listed below that column.
+
+	Add New User Panel
+		Text boxes named; Username, Display Name, Phone, Email, User roles(options; Guest, Admin, SuperAdmin, user will select one), Enabled.
+		
+	
+	
+
